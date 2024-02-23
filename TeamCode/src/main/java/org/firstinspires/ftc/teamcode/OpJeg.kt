@@ -105,7 +105,7 @@ class OpJeg : LinearOpMode() {
         // See the note about this earlier on this page.
         LF.direction = DcMotorSimple.Direction.REVERSE
         LB.direction = DcMotorSimple.Direction.REVERSE
-        RidicareIntake.position = 0.33
+        RidicareIntake.position = 0.3
         var Incetinire = 1.0
 
         val ServoSlideStanga = hardwareMap.servo["ServoSlideStanga"]
